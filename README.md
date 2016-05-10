@@ -1,2 +1,2 @@
-# anshulp25.github.io
-Website for testing Static Content
+# anshulp-talentica-mkdocs-000.github.io
+Sample Mkdocs website
