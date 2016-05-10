@@ -3,7 +3,7 @@
         {
             "location": "/", 
             "text": "Talentica Sample Project\n\n\nPre-requisite\n\n\nIf python \n= 2.7.9, then pip is required to be installed manually.\n\n\nPip Installation\n\n\nwget https://bootstrap.pypa.io/get-pip.py\npython get-pip.py\n\n\n\n\nVirtualenv Installation\n\n\nVirtualenv enables us to create virtual python environment, this gives advantage to install different python library versions for different projects which prevents the corruption of single python library repository.\n\n\npip install virtualenv\n\n\n\n\nInstall mkdocs\n\n\ncd /opt\nsudo virtualenv mkdocs\nsudo /opt/mkdocs/bin/pip install mkdocs\n\n\n\n\nVerifying mkdocs Installation\n\n\n/opt/mkdocs/bin/mkdocs --version\n\n\n\n\nCreating new Project\n\n\n/opt/mkdocs/bin/mkdocs new talentica-project\n\n\n\n\nBuilding the Website\n\n\nExecute the below command in the Project Home directory of mkdocs.\n\n\n/opt/mkdocs/bin/mkdocs build", 
-            "title": "Home"
+            "title": "Setup"
         }, 
         {
             "location": "/#talentica-sample-project", 

@@ -56,13 +56,25 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href=".">Home</a>
+        <a class="current" href=".">Setup</a>
         
             <ul>
             
                 <li class="toctree-l3"><a href="#talentica-sample-project">Talentica Sample Project</a></li>
                 
                     <li><a class="toctree-l4" href="#pre-requisite">Pre-requisite</a></li>
+                
+                    <li><a class="toctree-l4" href="#pip-installation">Pip Installation</a></li>
+                
+                    <li><a class="toctree-l4" href="#virtualenv-installation">Virtualenv Installation</a></li>
+                
+                    <li><a class="toctree-l4" href="#install-mkdocs">Install mkdocs</a></li>
+                
+                    <li><a class="toctree-l4" href="#verifying-mkdocs-installation">Verifying mkdocs Installation</a></li>
+                
+                    <li><a class="toctree-l4" href="#creating-new-project">Creating new Project</a></li>
+                
+                    <li><a class="toctree-l4" href="#building-the-website">Building the Website</a></li>
                 
             
             </ul>
@@ -99,7 +111,7 @@
     
       
     
-    <li>Home</li>
+    <li>Setup</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -110,35 +122,35 @@
             <div class="section">
               
                 <h1 id="talentica-sample-project">Talentica Sample Project</h1>
-<h2 id="pre-requisite">Pre-requisite</h2>
+<h3 id="pre-requisite">Pre-requisite</h3>
 <p>If python &lt;= 2.7.9, then pip is required to be installed manually.</p>
 <h3 id="pip-installation">Pip Installation</h3>
-<pre><code>wget https://bootstrap.pypa.io/get-pip.py
+<pre><code class="bash">wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 </code></pre>
 
 <h3 id="virtualenv-installation">Virtualenv Installation</h3>
 <p>Virtualenv enables us to create virtual python environment, this gives advantage to install different python library versions for different projects which prevents the corruption of single python library repository.</p>
-<pre><code>pip install virtualenv
+<pre><code class="bash">pip install virtualenv
 </code></pre>
 
 <h3 id="install-mkdocs">Install mkdocs</h3>
-<pre><code>cd /opt
+<pre><code class="bash">cd /opt
 sudo virtualenv mkdocs
 sudo /opt/mkdocs/bin/pip install mkdocs
 </code></pre>
 
 <h3 id="verifying-mkdocs-installation">Verifying mkdocs Installation</h3>
-<pre><code>/opt/mkdocs/bin/mkdocs --version
+<pre><code class="bash">/opt/mkdocs/bin/mkdocs --version
 </code></pre>
 
 <h3 id="creating-new-project">Creating new Project</h3>
-<pre><code>/opt/mkdocs/bin/mkdocs new talentica-project
+<pre><code class="bash">/opt/mkdocs/bin/mkdocs new talentica-project
 </code></pre>
 
 <h3 id="building-the-website">Building the Website</h3>
 <p>Execute the below command in the Project Home directory of mkdocs.</p>
-<pre><code>/opt/mkdocs/bin/mkdocs build
+<pre><code class="bash">/opt/mkdocs/bin/mkdocs build
 </code></pre>
               
             </div>
@@ -185,5 +197,5 @@ sudo /opt/mkdocs/bin/pip install mkdocs
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-05-10 06:36:56.757541
+Build Date UTC : 2016-05-10 06:55:21.140079
 -->
